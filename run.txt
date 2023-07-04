@@ -3,7 +3,7 @@ https://storage.googleapis.com/bert_models/2018_11_03/chinese_L-12_H-768_A-12.zi
 
 
 
-修改路径后运行代码
+修改路径后运行代码（input_file为输入的数据）
 python3 /tmp/bert2/run_pretraining.py \
   --input_file=/tmp/bert/output/pretraing_data.tf/tf_*.tfrecord \
   --output_dir=/tmp/bert2/output \
